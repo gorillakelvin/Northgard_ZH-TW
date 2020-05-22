@@ -490,7 +490,7 @@
 			<desc>為更多部落成員提供住處。</desc>
 			<upgrades>
 				<0>
-					<desc>可以再收容::value::個部落成員，並改善居住條件。</desc>
+					<desc>可以再收容::value::個村民，並改善居住條件。</desc>
 				</0>
 			</upgrades>
 		</House>
