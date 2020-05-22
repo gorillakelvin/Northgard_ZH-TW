@@ -72,7 +72,7 @@
 		</Stone>
 		<Iron>
 			<name>鐵</name>
-			<desc>[Iron]用於鍛造強大的武器和製作更好的工具。</desc>
+			<desc>[Iron]用於鍛煉強大的武器和製作更好的工具。</desc>
 		</Iron>
 		<Prestige>
 			<name>商業影響</name>
@@ -88,7 +88,7 @@
 		</Gemstone>
 		<MilitaryXP>
 			<name>軍事經驗</name>
-			<desc>殺死敵軍或在戰鬥中犧牲兵力而獲得[MilitaryXP]。</desc>
+			<desc>殺死敵軍或在戰鬥中犧牲軍事單位而獲得[MilitaryXP]。</desc>
 		</MilitaryXP>
 		<LoreBifrost>
 			<name>彩虹橋的知識</name>
@@ -151,16 +151,16 @@
 		</Miner>
 		<Scout>
 			<name>偵察兵</name>
-			<desc>偵察兵探索新地區，説明你擴大地盤。他們還能夠探索廢墟和船骸。</desc>
+			<desc>偵察兵探索新地區，擴大視野。他們還能夠探索廢墟和船骸。</desc>
 		</Scout>
 		<Healer>
 			<name>治療師</name>
-			<desc>治療師採集草藥治療你的傷患。傷者必須位於你的領地內才能獲得治療。不忙時候，他們還會收集[Food]。</desc>
+			<desc>治療師採集草藥治療你的傷患。傷者必須位於你的領地內才能獲得治療。空閑時候，他們還會收集[Food]。</desc>
 			<flavor>富豪爾...哦，對不起，讀錯行了。</flavor>
 		</Healer>
 		<Mender>
 			<name>修護者</name>
-			<desc>不忙時候，修補者會在你的領地內治癒受傷的人民，還能做些採集工作[Lore]。</desc>
+			<desc>空閑時候，修補者會在你的領地內治癒受傷的村民，還能做些採集工作[Lore]。</desc>
 		</Mender>
 		<Smith>
 			<name>鐵匠</name>
@@ -173,7 +173,7 @@
 		<Slave>
 			<name>奴隸</name>
 			<desc>[Slave]不計入人口量，也不需要住房。<br/>他們對[Food]和[Wood]消耗也更少，在收集資源時效率也較低。<br/>你可以從[Port]購買更多[Slave]。</desc>
-			<flavor>生計艱難......</flavor>
+			<flavor>生活艱難......</flavor>
 		</Slave>
 		<Norn>
 			<name>諾恩</name>
@@ -191,7 +191,7 @@
 		</ShieldBearer>
 		<AxeWielder>
 			<name>投斧手</name>
-			<desc>投斧手是遠端兵種，比一般的戰士更加強大，但也更脆弱。</desc>
+			<desc>投斧手是遠程攻擊的兵種，比一般的戰士有更強的攻擊力，但也更脆弱。</desc>
 		</AxeWielder>
 		<Skirmisher>
 			<name>前衛</name>
@@ -201,7 +201,7 @@
 		<Dragonmen>
 			<name>龍族</name>
 			<langs.plural>龍族</langs.plural>
-			<desc>通過古老的祭祀儀式孕育而生，[Dragonmen]將激鬥不休。</desc>
+			<desc>通過古老的祭祀儀式孕育而生，[Dragonmen]將激戰不休。</desc>
 		</Dragonmen>
 		<Mercenary>
 			<name>雇傭兵</name>
@@ -222,7 +222,7 @@
 		</GiantHero>
 		<Militia>
 			<name>民兵</name>
-			<desc>武裝後的平民的攻擊力幾乎和戰士一樣有效</desc>
+			<desc>武裝後的村民的攻擊力幾乎和戰士一樣有效</desc>
 		</Militia>
 		<Bodyguard>
 			<name>護衛</name>
@@ -299,7 +299,7 @@
 		<Hero06>
 			<name>哈瓦德</name>
 			<langs.plural>哈瓦德</langs.plural>
-			<desc>哈瓦德是山羊族年邁的旗手，智慧又善良，專注於保護自己人民的生存。</desc>
+			<desc>哈瓦德是山羊族年邁的旗手，智慧又善良，專注於保護自己村民的生存。</desc>
 			<flavor>這樣的野蠻行為有必要嗎？</flavor>
 		</Hero06>
 		<Hero07>
@@ -389,12 +389,12 @@
 			<desc>兇猛捍衛自己領土的孤獨生物。即使經驗豐富的戰士面對他們也會感到棘手。</desc>
 		</Bear>
 		<WhiteBear>
-			<name>熊</name>
+			<name>白熊</name>
 			<desc>兇猛捍衛自己領土的孤獨生物。即使經驗豐富的戰士面對他們也會感到棘手。</desc>
 		</WhiteBear>
 		<BearMaiden>
-			<name>鎧甲，裝甲熊</name>
-			<desc>鎧甲是一種強大的防禦部隊，但不能進入敵方領地，除非你已經解鎖[BearAwake]。</desc>
+			<name>鎧甲熊</name>
+			<desc>鎧甲熊擁有強悍的防禦力，但不能進入敵方領地，除非你已經解鎖[BearAwake]。</desc>
 		</BearMaiden>
 		<Wyvern>
 			<name>雙足飛龍</name>
@@ -510,7 +510,7 @@
 		</WoodLodge>
 		<HealerHut>
 			<name>治療師小屋</name>
-			<desc>將村民指派為[Healer]，以治療自己領地內的傷病部落成員。當不進行治療時，他們收集[Food]。</desc>
+			<desc>將村民指派為[Healer]，以治療自己領地內的傷病部落成員。空閑時，他們收集[Food]。</desc>
 			<upgrades>
 				<0>
 					<desc>部落成員治療速度提高::percent::。</desc>
@@ -519,7 +519,7 @@
 		</HealerHut>
 		<MenderHut>
 			<name>修護者小屋</name>
-			<desc>將村民指派為[Mender]，醫治你領土內受傷的部落成員，並在閒暇時期為你收集[Lore]。</desc>
+			<desc>將村民指派為[Mender]，醫治你領土內受傷的部落成員，並在空閑時為你收集[Lore]。</desc>
 			<flavor>淡淡的白菜氣息。</flavor>
 			<upgrades>
 				<0>
@@ -533,7 +533,7 @@
 		</FishermanHouse>
 		<Fishery>
 			<name>漁業</name>
-			<desc>將一名村民指派為[Fisherman]，以生產[Food]。</desc>
+			<desc>將村民指派為[Fisherman]，以生產[Food]。</desc>
 			<flavor>不新鮮？你是說我的魚？</flavor>
 		</Fishery>
 		<Fields>
@@ -556,7 +556,7 @@
 		</FoodSilo>
 		<TradingPost>
 			<name>商棧</name>
-			<desc>將村民指派為[Merchant]，以賺[Money]。</desc>
+			<desc>將村民指派為[Merchant]，賺取資金[Money]。</desc>
 		</TradingPost>
 		<MarketPlace>
 			<name>市場</name>
@@ -565,12 +565,12 @@
 		</MarketPlace>
 		<RavenPort>
 			<name>港口</name>
-			<desc>水手在突襲時掠奪[Money]和[Lore]或[Fame]。你可以偵察海岸並雇傭[Mercenary]。添加一個[Lighthouse]來利用重大貿易航線。</desc>
+			<desc>水手在突襲時掠奪[Money]和[Lore]或[Fame]。你可以偵察海岸並雇傭[Mercenary]。添加一個[Lighthouse]來建立貿易航線。</desc>
 		</RavenPort>
 		<Port>
 			<name>長船塢</name>
 			<desc>水手在突襲時掠奪[Money]和[Lore]或[Fame]。添加一個[Lighthouse]來利用重大貿易航線。</desc>
-			<props.noFameDesc>水手在突襲時掠奪 [Money] 和 [Lore]。添加一個 [Lighthouse] 來利用重大貿易航線。</props.noFameDesc>
+			<props.noFameDesc>水手在突襲時掠奪 [Money] 和 [Lore]。添加一個[Lighthouse]來建立貿易航線。</props.noFameDesc>
 		</Port>
 		<HallOfPoetry>
 			<name>吟游詩人堂</name>
@@ -629,7 +629,7 @@
 		</ForgeHorse>
 		<CarvedStone>
 			<name>石刻</name>
-			<desc>將一名村民指派為[RuneMaster]，以生產[Lore]。</desc>
+			<desc>將村民指派為[RuneMaster]，以生產[Lore]。</desc>
 			<flavor>比書還重一點。</flavor>
 		</CarvedStone>
 		<Sheepfold>
@@ -698,7 +698,7 @@
 		</WatchTower>
 		<Totem>
 			<name>雕像</name>
-			<desc>這個木雕向所有的人民展示了你的威力！</desc>
+			<desc>這個木雕向所有的村民展示了你的威力！</desc>
 		</Totem>
 		<Temple>
 			<name>王者祭壇</name>
@@ -741,7 +741,7 @@
 		</TownHall>
 		<RuneStone>
 			<name>符文</name>
-			<desc>將一名村民指派為[RuneMaster]，以生產[Lore]。</desc>
+			<desc>將村民指派為[RuneMaster]，以生產[Lore]。</desc>
 		</RuneStone>
 		<CircleStone>
 			<name>石頭圈</name>
@@ -803,7 +803,7 @@
 		<Grove>
 			<name>森林</name>
 			<desc>將本地區的[Wood]產量提高::percent::。</desc>
-			<flavor>在耶誕節，市民會根據傳統用雕刻、禮物和食物裝飾高大的常青樹，以鼓勵春天更快回歸。</flavor>
+			<flavor>在耶誕節，村民會根據傳統用雕刻、禮物和食物裝飾高大的常青樹，以鼓勵春天更快回歸。</flavor>
 		</Grove>
 		<DeerSpawner>
 			<name>鹿</name>
@@ -914,7 +914,7 @@
 		<PillarOfGod>
 			<name>榮譽之柱</name>
 			<langs.plural>榮譽之柱</langs.plural>
-			<desc>將一名村民指派為[Scholar]，以生產[Fame]。</desc>
+			<desc>將村民指派為[Scholar]，以生產[Fame]。</desc>
 		</PillarOfGod>
 		<NidavellirGate>
 			<name>尼德威阿爾之門</name>
@@ -1076,7 +1076,7 @@
 		</Coats>
 		<Defense>
 			<name>防禦策略</name>
-			<desc>將平民的攻擊力和防禦塔的抵抗力提升::percent::。</desc>
+			<desc>將村民的攻擊力和防禦塔的抵抗力提升::percent::。</desc>
 		</Defense>
 		<Drakkars>
 			<name>造船</name>
@@ -1116,7 +1116,7 @@
 			<desc>在冬季期間，將額外柴火消耗減少::inv_percent::，並將冬季食物處罰降低::inv_percent1::。</desc>
 		</HeartStone>
 		<SlotGrowth>
-			<name>人民安居樂業</name>
+			<name>村民安居樂業</name>
 			<desc>根據你的人口，需要::inv_percent::的幸福度。</desc>
 		</SlotGrowth>
 		<Heroes>
@@ -1261,7 +1261,7 @@
 		</Legacy>
 		<Osmosis>
 			<name>滲透</name>
-			<desc>從每::value2::個殖民地區你能獲得::value1::份[Happy]。擁有[Grove]、[MarshBuilding]或[Shoal]的區域，可獲得::value::份[Happy]。</desc>
+			<desc>從每::value2::個殖民地區你能獲得::value1::點[Happy]。擁有[Grove]、[MarshBuilding]或[Shoal]的區域，可獲得::value::點[Happy]。</desc>
 		</Osmosis>
 		<BlackMarket>
 			<name>黑市</name>
@@ -1293,7 +1293,7 @@
 		</BloodTears>
 		<Capture>
 			<name>捕獲</name>
-			<desc>軍事單位有機會奴役受傷的敵方平民或中立派別部隊。<br/>被奴役的[Myrkalfar]算做3個[Slave]，[Giant]算做5個[Slave]。如果你的[Hero01]在這片區域，則捕獲機率提高::value1::。</desc>
+			<desc>軍事單位有機會奴役受傷的敵方村民或中立派別部隊。<br/>被奴役的[Myrkalfar]算做3個[Slave]，[Giant]算做5個[Slave]。如果你的[Hero01]在這片區域，則捕獲機率提高::value1::。</desc>
 		</Capture>
 		<SlaveTrade>
 			<name>奴隸貿易</name>
@@ -1389,7 +1389,7 @@
 		</Dedication>
 		<Recruits>
 			<name>招募</name>
-			<desc>你獲得::value::個[Villager]，人口上限達::value::和::value1::份[Happy]。可以以更好的價格與你的家園進行交易。</desc>
+			<desc>你獲得::value::個[Villager]，人口上限達::value::和::value1::點[Happy]。在你的部落，交易獲得更好的價格。</desc>
 		</Recruits>
 		<Mercenaries>
 			<name>雇傭兵</name>
@@ -1643,7 +1643,7 @@
 			<desc>巨龍是所有部落中最古怪的，他們遵循古老的習俗，並信奉奇異的傳統。他們通過獻祭和奴役來達成目標，常令其他部落所不齒。</desc>
 			<bonuses>
 				<0>
-					<desc>你的平民可以進入中立領土。</desc>
+					<desc>你的村民可以進入中立領土。</desc>
 				</0>
 				<1>
 					<desc>受傷不會受到的幸福或生產處罰。</desc>
@@ -1744,7 +1744,7 @@
 			<desc>挨餓的部落成員。</desc>
 		</NoFood>
 		<NotHappy>
-			<name>幸福值低</name>
+			<name>幸福度低</name>
 			<desc>不快樂的部落成員生產力降低::inv_percent::。</desc>
 		</NotHappy>
 		<NoWood>
@@ -2248,7 +2248,7 @@
 					<text>終於！歸功於你們的努力，我們的部落現在登船遠航了。</text>
 				</16>
 				<17>
-					<text>起錨，驕傲的人民！我們準備好向北加爾遠航！</text>
+					<text>起錨，驕傲的村民！我們準備好向北加爾遠航！</text>
 				</17>
 				<18>
 					<text>你的末日越來越近，哈根。</text>
@@ -2332,7 +2332,7 @@
 					<text>我聽過老人講關於亡靈戰士的故事，但我從來沒有信過。很顯然，我錯了。</text>
 				</9>
 				<10>
-					<text>無論如何，我們都要保衛自己的人民，殺死這些惡魔！</text>
+					<text>無論如何，我們都要保衛自己的村民，殺死這些惡魔！</text>
 				</10>
 				<11>
 					<text>我們剛剛發現了一個礦床。這個礦床產兩種礦：石料和鐵礦石。</text>
@@ -2398,7 +2398,7 @@
 					<text>從今往後，直至時間盡頭，你們都可以依靠山羊族的援手與忠誠。我特此立誓向您效忠。</text>
 				</31>
 				<32>
-					<text>真棒！我們氏族的聲譽已達到知名的程度。我們對此區域的影響力變強，我們人民的心充滿了驕傲！</text>
+					<text>真棒！我們氏族的聲譽已達到知名的程度。我們對此區域的影響力變強，我們村民的心充滿了驕傲！</text>
 				</32>
 				<33>
 					<text>太棒了！我們的領地已達到相當可觀的規模。在我們出發前往下一個區域後，民眾將能夠在這裡繁榮昌盛。</text>
@@ -2584,10 +2584,10 @@
 					<text>我們到了！我們設法建造了王者祭壇，這是人類能夠想像建造的最壯觀的紀念碑之一！</text>
 				</41>
 				<42>
-					<text>更別提釀酒廠了。經過一天艱苦的勞動後，我們善良的市民現在總算能鬆口氣了。他們非常感激您，年輕的領主。</text>
+					<text>更別提釀酒廠了。經過一天艱苦的勞動後，我們善良的村民現在總算能鬆口氣了。他們非常感激您，年輕的領主。</text>
 				</42>
 				<43>
-					<text>人民的幸福度擺在我的首位。生存是一回事；生活則完全是另一回事。</text>
+					<text>村民的幸福度擺在我的首位。生存是一回事；生活則完全是另一回事。</text>
 				</43>
 			</texts>
 			<tutorial>
@@ -3298,7 +3298,7 @@
 					<text>如果你們雙方不能共同承擔勞作，並分享勞動成果，這樣是最蠢的做法，於雙方都沒有好處。還有，我只想通過，誰也難不了我。</text>
 				</22>
 				<23>
-					<text>所以你是加入下等壓迫者咯！為勤勞的人民義憤而戰！</text>
+					<text>所以你是加入下等壓迫者咯！為勤勞的村民義憤而戰！</text>
 				</23>
 				<24>
 					<text>那個尤士雲的民眾以暴力反擊，情理之中。為我除掉那個忘恩負義的害蟲。</text>
@@ -3355,7 +3355,7 @@
 					<text>這顯然，或者至少可能是，珀伽彌爾之劍。這是第一代巨人中僅有的兩個倖存者之一。也是所有現存的霜巨人的先祖。</text>
 				</41>
 				<42>
-					<text>確實，這把劍代表了統治者淩駕于人民之上的力量。我們保護他們，他們為我們工作。這把劍在此的作用是將人類分為兩等：一類是統治者，一類是民眾。</text>
+					<text>確實，這把劍代表了統治者淩駕于村民之上的力量。我們保護他們，他們為我們工作。這把劍在此的作用是將人類分為兩等：一類是統治者，一類是民眾。</text>
 				</42>
 				<43>
 					<text>我們痛恨這處遺址，因它代表著壓迫和分裂。它就是不公正的代表。珀伽彌爾可能就是個暴君。</text>
@@ -3877,7 +3877,7 @@
 					<text>唷，看來我又有新主人了。這次在一個女人手下服務我還挺開心的！向女王致敬！</text>
 				</117>
 				<118>
-					<text>這……這不應該發生啊！現在沒人能阻擋得了洛基了！瑞格主上，你辜負了你的人民和諸神了！</text>
+					<text>這……這不應該發生啊！現在沒人能阻擋得了洛基了！瑞格主上，你辜負了你的村民和諸神了！</text>
 				</118>
 				<119>
 					<text>我……我不信……</text>
@@ -4826,10 +4826,10 @@
 	</sheet>
 	<sheet name="banner">
 		<BannerStag>
-			<desc>雄鹿族的旗手內心自豪且高尚，是一個帶著榮耀生活和戰鬥的忠誠戰士。對他而言，沒有什麼比人民幸福度更重要。他對你的忠誠與其父親對你的忠誠一樣，並且願意幫助你實施報仇並征服北加爾！</desc>
+			<desc>雄鹿族的旗手內心自豪且高尚，是一個帶著榮耀生活和戰鬥的忠誠戰士。對他而言，沒有什麼比村民幸福度更重要。他對你的忠誠與其父親對你的忠誠一樣，並且願意幫助你實施報仇並征服北加爾！</desc>
 		</BannerStag>
 		<BannerGoat>
-			<desc>山羊族年邁的旗手，智慧又善良，專注於保護自己人民的生存。雖然他憎惡毫無意義的暴力，但在被激怒時仍會給人重重一拳。你將他的族人從饑餓狼群的圍攻中拯救出來後，他和海德倫族向你表示效忠。</desc>
+			<desc>山羊族年邁的旗手，智慧又善良，專注於保護自己村民的生存。雖然他憎惡毫無意義的暴力，但在被激怒時仍會給人重重一拳。你將他的族人從饑餓狼群的圍攻中拯救出來後，他和海德倫族向你表示效忠。</desc>
 		</BannerGoat>
 		<BannerWolf>
 			<desc>無情且狂躁的年輕狂戰士，是狼族的旗手，主要為混戰而生。布蘭德沒花什麼力氣就說服他支持你的事業：復仇的故事和輝煌的戰鬥機會能讓他興奮起來。</desc>
@@ -4891,7 +4891,7 @@
 		</Warcry>
 		<CallToArms>
 			<name>戰爭召喚</name>
-			<desc>將此地區的所有平民轉換為[Militia]。他們無法跨越你的領土。</desc>
+			<desc>將此地區的所有村民轉換為[Militia]。他們無法跨越你的領土。</desc>
 		</CallToArms>
 		<Bodyguard>
 			<name>護衛</name>
@@ -5180,7 +5180,7 @@
 		</GreedPrice>
 		<Dystopia>
 			<name>反烏托邦</name>
-			<description>永遠快樂最好不過。和[SpecterWarrior]做交易，以保持幸福指數。</description>
+			<description>永遠快樂最好不過。和[SpecterWarrior]做交易，以保持幸福度。</description>
 		</Dystopia>
 		<HostileLands>
 			<name>敵國</name>
@@ -5200,7 +5200,7 @@
 		</Wyverns>
 		<ValkyrieGalore>
 			<name>瓦爾基裡的榮耀</name>
-			<description>如果你不能牢牢掌控赫爾海姆，那麼別讓你的敵人做到。</description>
+			<description>如果你不能牢牢掌控赫爾海姆，那麼別讓你的敵人成功。</description>
 		</ValkyrieGalore>
 		<GemCutter>
 			<name>寶石切割工</name>
@@ -5212,7 +5212,7 @@
 		</OdinsGlory>
 		<BefriendJotnar>
 			<name>與霜巨人成為朋友</name>
-			<description>儘管霜巨人有攻擊傾向，但是保衛它們可與其交好。</description>
+			<description>儘管霜巨人有攻擊傾向，但是保衛它們可與他們友好。</description>
 		</BefriendJotnar>
 		<KoboldInfestation>
 			<name>地精侵擾</name>
@@ -5220,12 +5220,12 @@
 		</KoboldInfestation>
 		<MyrkalfarUprising>
 			<name>黑暗精靈起義</name>
-			<description>諸神黃昏很難對付，黑暗精靈來勢洶洶，火山又頻繁爆發。要活下來都是一個不小的挑戰。</description>
+			<description>諸神黃昏很難對付，黑暗精靈來勢洶洶，火山又頻繁爆發。要活下來是一個不小的挑戰。</description>
 		</MyrkalfarUprising>
 	</sheet>
 	<sheet name="rule">
 		<ZombieDraugr>
-			<desc>每個死去的人民都有機會成為中立[Death]。</desc>
+			<desc>每個死去的村民都有機會成為中立[Death]。</desc>
 		</ZombieDraugr>
 		<MoreDraugar>
 			<desc>[Death]很快從[DeathCamp]重生，並且在傳送門出現的概率更高。</desc>
@@ -5429,7 +5429,7 @@
 			<desc>水手不會產生[Money]。</desc>
 		</NoSailorMoney>
 		<MoreReqHappyFoodConsumption>
-			<desc>你的部落需要更多的幸福感和食物。</desc>
+			<desc>你的部落需要更多的幸福度和食物。</desc>
 		</MoreReqHappyFoodConsumption>
 		<SkirmisherAccess>
 			<desc>所有部落都可使用[Skirmisher]。</desc>
