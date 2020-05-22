@@ -12,7 +12,7 @@
 	<t id="dateCampaign">Year ::year:: - ::month::</t>
 	<g id="titles">
 		<t id="population">人口</t>
-		<t id="civilians">平民</t>
+		<t id="civilians">村民</t>
 		<t id="slaves">奴隸</t>
 		<t id="warband">戰團</t>
 		<t id="allies">同盟</t>
@@ -533,7 +533,7 @@
 		</g>
 		<g id="forge">
 			<t id="tip_forge">鍛造</t>
-			<t id="tab_civilian">平民</t>
+			<t id="tab_civilian">村民</t>
 			<t id="tab_military">戰團</t>
 			<t id="tab_relics">聖物</t>
 			<t id="title_civilian">升級工具</t>
@@ -601,7 +601,7 @@
 			<t id="no_producing_building">需要一個[Food]、[Wood]或[Money]建築。</t>
 			<t id="no_building">附近沒有建築。</t>
 			<t id="not_relic_creator">你不能使用這個聖物，你不是它的創造者。</t>
-			<t id="no_civilians">附近沒有平民。</t>
+			<t id="no_civilians">附近沒有村民。</t>
 			<t id="not_enemy_area">需要在敵方區域施放。</t>
 			<t id="no_military_camp">附近沒有軍營。</t>
 			<t id="no_enemy_building">附近沒有敵方建築。</t>
@@ -640,8 +640,8 @@
 		<t id="giantHeroDescB">尤敦黑姆可怕的執法者，領主繼承權的最高執行者和財產私有化的捍衛者。</t>
 		<t id="giantHeroFlavorB">我就是法律！</t>
 		<t id="chooseGiantClan">選擇一個龐大部落，成為其盟友。</t>
-		<t id="chooseGiantSkrymirDesc">斯克裡米爾是尤敦黑姆的國王，也是這片土地的合法擁有者。他的人民堅信，就憑這一點他們就應該擁有綿羊製品。</t>
-		<t id="chooseGiantFjolsvinDesc">尤士雲是尤敦黑姆辛勤工作的人民領袖。他們認為，在重新劃分資源時，應該靠辛勤勞動說話，而不是什麼都不做就繼承財富。</t>
+		<t id="chooseGiantSkrymirDesc">斯克裡米爾是尤敦黑姆的國王，也是這片土地的合法擁有者。他的村民堅信，就憑這一點他們就應該擁有綿羊製品。</t>
+		<t id="chooseGiantFjolsvinDesc">尤士雲是尤敦黑姆辛勤工作的村民領袖。他們認為，在重新劃分資源時，應該靠辛勤勞動說話，而不是什麼都不做就繼承財富。</t>
 		<t id="chooseGiantConfirm">加入陣營</t>
 		<t id="greatOutpost">主商棧</t>
 		<t id="wurmSlayerForge">將村民指派為[Smith]。可以鍛造更好的工具和武器。你也可以通過[RimeSteel]鍛造無敵的屠龍者。</t>
@@ -840,7 +840,7 @@
 		<t id="nowood">我們快要冷死了！</t>
 		<t id="sick">我們生病了！</t>
 		<t id="total">當前幸福度</t>
-		<t id="current">期望的幸福度</t>
+		<t id="current">期望幸福度</t>
 		<t id="next">我們目前有 <img src="/r/Happy"/><font color="#G">+::v::</font>。部落新增村民的頻率為每隔 <font color="#R">::time::</font> 天增加一名。</t>
 	</g>
 	<g id="tip">
@@ -856,8 +856,8 @@
 		<t id="building_upkeep_year">每年維護建築</t>
 		<t id="wood_consumption">柴火</t>
 		<t id="population_desc">這是你部落當前的規模。你有足夠[House]來容納 <font color="#R">::max::</font> 人。</t>
-		<t id="slaves_desc">請確保[Slave]的人數不要超過市民人數，否則他們可能會發起反抗... </t>
-		<t id="warband_default">你的戰團當前大小。建立軍營來增強兵力。</t>
+		<t id="slaves_desc">請確保[Slave]的人數不要超過村民人數，否則他們可能會發起反抗... </t>
+		<t id="warband_default">你的兵力數目。建立軍營來增加兵力上限。</t>
 		<t id="warband_maxed">建立更多的軍營，以增加戰團的規模！</t>
 		<t id="population_lore">人口</t>
 		<t id="trade_in">進口貿易</t>
@@ -1734,9 +1734,9 @@
 		<t id="colonize">殖民區域： <img src="/r/::res::"/><font color="::color::">::cost::</font></t>
 		<t id="explore_area">探索區域</t>
 		<t id="explore_ruins">探索廢墟</t>
-		<t id="civil_assist">平民協助</t>
-		<t id="civil_move">轉移平民</t>
-		<t id="retreat_civil">撤退平民</t>
+		<t id="civil_assist">村民協助</t>
+		<t id="civil_move">轉移村民</t>
+		<t id="retreat_civil">撤退村民</t>
 		<t id="retreat">撤退軍事單位</t>
 		<t id="target_tower">瞄準塔樓</t>
 		<t id="target_tower_stop">停止瞄準塔樓</t>
