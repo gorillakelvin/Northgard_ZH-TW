@@ -6,17 +6,17 @@
 <dl>
 <table>
   <tr>
-    <th colspan="3">Northgard v.2.1.17.17011</th>
+    <th colspan="3">Northgard v.2.2.9.17776</th>
   </tr>
   <tr>
     <td><img src="https://kylema.mynetgear.com/gorillakelvin/image/other/download.png" width="20"></td>
     <td>懶人安裝版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2020.5.22_V.2.1.17.17011</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2020.7.19_V.2.2.9.17776</a></td>
   </tr>
   <tr>
     <td><img src="https://kylema.mynetgear.com/gorillakelvin/image/other/download.png" width="20"></td>
     <td>完整ZIP版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2020.5.22_V.2.1.17.17011</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2020.7.19_V.2.2.9.17776</a></td>
   </tr>
 </table>
 </dl>
