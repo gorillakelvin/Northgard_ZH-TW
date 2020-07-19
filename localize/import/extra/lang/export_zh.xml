@@ -179,6 +179,10 @@
 			<name>諾恩</name>
 			<desc>諾恩人想將克拉肯人的意願發揚光大，給部落帶來遠大前程。</desc>
 		</Norn>
+		<Warden>
+			<name>監獄長</name>
+			<desc>監獄長一直密切注意著[FountainHealth]。他們提供治療獎勵幫助治療傷員。他們在不忙的時候也會召集[Food]。</desc>
+		</Warden>
 		<Warrior>
 			<name>戰士</name>
 			<desc>戰士是最常見的[Warband]單位。他們是戰鬥能手，可對抗盾牌手。</desc>
@@ -209,17 +213,6 @@
 			<desc>雇傭兵要花[Money]雇傭，並不是特別可靠，但將為受他們攻擊的地方帶來浩劫。</desc>
 			<flavor>就事論事，無關個人。</flavor>
 		</Mercenary>
-		<OxShadow>
-			<name>托芬的影子</name>
-		</OxShadow>
-		<NornArmor>
-			<name>瓦爾基裡</name>
-			<desc>瓦爾基裡人擁有神聖的力量，是克拉肯軍隊中最強大的成員。</desc>
-		</NornArmor>
-		<GiantHero>
-			<name>布林恩</name>
-			<desc>布林恩是一位決定與人類交往，為他們提供無比實力的傳奇[Giant]。</desc>
-		</GiantHero>
 		<Militia>
 			<name>民兵</name>
 			<desc>武裝後的村民的攻擊力幾乎和戰士一樣有效</desc>
@@ -232,108 +225,141 @@
 		<Hero01>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Goat]</editor.name>
 		</Hero01>
 		<Hero02>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Raven]</editor.name>
 		</Hero02>
 		<Hero03>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Stag]</editor.name>
 		</Hero03>
 		<Hero04>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Boar]</editor.name>
 		</Hero04>
 		<Berserker>
 			<name>狂戰士</name>
 			<desc>強大而魯莽的戰士，使得狼族部落威震所有敵人。</desc>
+			<editor.name>酋長[Wolf]</editor.name>
 		</Berserker>
 		<Maiden>
 			<name>持盾少女</name>
 			<desc>堅定的捍衛者，她是熊族永不動搖的原因。</desc>
+			<editor.name>酋長[Bear]</editor.name>
 		</Maiden>
 		<WarchiefSnake>
 			<name>希格妮</name>
 			<desc>作為一個無視道德的影子領袖，希格妮將不惜一切代價在北加爾留下深遠影響。</desc>
 			<flavor>用不了多久，北加爾的蛇族將痛失其毒牙！</flavor>
+			<editor.name>酋長[Snake]</editor.name>
 		</WarchiefSnake>
 		<WarchiefDragon>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Dragon]</editor.name>
 		</WarchiefDragon>
 		<HorseHero>
 			<name>布洛克</name>
 			<desc>虛懷若谷的布洛克，覺得可以專注於自己的技藝很自在，把政治留給姊妹操心。</desc>
+			<editor.name>酋長[Horse]</editor.name>
 		</HorseHero>
 		<HorseMaiden>
 			<name>艾特裡亞</name>
 			<desc>作為一個有天賦的工匠，艾特裡亞更注重部落領導力，有情緒的時候就會拿起鎬來發洩。</desc>
+			<editor.name>酋長[Horse]</editor.name>
 		</HorseMaiden>
 		<KrakenMaiden>
 			<name>酋長</name>
 			<desc>酋長是經驗豐富的作戰單位，在戰鬥中發揮其實力和領導能力。</desc>
+			<editor.name>酋長[Kraken]</editor.name>
 		</KrakenMaiden>
 		<OxHero>
 			<name>托芬</name>
 			<desc>作為公牛部落的首領，[OxHero]是一位令整個北加爾敬畏的英雄。</desc>
+			<editor.name>酋長[Ox]</editor.name>
 		</OxHero>
 		<Berserker03>
 			<name>埃吉爾</name>
 			<langs.plural>埃吉爾</langs.plural>
 			<desc>無情且狂躁的年輕狂戰士埃吉爾，是狼族的旗手，主要為混戰而生。</desc>
 			<flavor>兄弟們，掠奪時間到了！</flavor>
+			<editor.name>旗手[Wolf]</editor.name>
 		</Berserker03>
 		<Maiden02>
 			<name>鮑格爾德</name>
 			<langs.plural>鮑格爾德</langs.plural>
 			<desc>勇敢且傲慢的鮑格爾德是熊族的旗手，作為一個強悍的女人，不向任何人屈服，且對弱者毫不留情。</desc>
 			<flavor>沖我來吧，你們這些懦夫！</flavor>
+			<editor.name>旗手[Bear]</editor.name>
 		</Maiden02>
 		<Maiden03>
 			<name>麗芙</name>
 			<langs.plural>麗芙</langs.plural>
 			<desc>既務實又野心勃勃的麗芙是鴉族的狡猾旗手，喜歡控制每件事的各個細節，痛恨將時間或克朗浪費在徒勞無果的事上。</desc>
 			<flavor>總是只問目的，不問手段。</flavor>
+			<editor.name>旗手[Raven]</editor.name>
 		</Maiden03>
 		<Hero06>
 			<name>哈瓦德</name>
 			<langs.plural>哈瓦德</langs.plural>
 			<desc>哈瓦德是山羊族年邁的旗手，智慧又善良，專注於保護自己村民的生存。</desc>
 			<flavor>這樣的野蠻行為有必要嗎？</flavor>
+			<editor.name>旗手[Goat]</editor.name>
 		</Hero06>
 		<Hero07>
 			<name>布蘭德</name>
 			<langs.plural>布蘭德</langs.plural>
 			<desc>內心自豪且高尚的布蘭德是雄鹿族的旗手，一個帶著榮耀生活和戰鬥的忠誠戰士。</desc>
 			<flavor>願我們的勝利千載傳訟！</flavor>
+			<editor.name>旗手[Stag]</editor.name>
 		</Hero07>
 		<Hero08>
 			<name>斯瓦爾恩</name>
 			<langs.plural>斯瓦爾恩</langs.plural>
 			<desc>沉默寡言的斯瓦爾恩是野豬族叛軍的精神領袖，既是一位聖人，也是一名戰士，按照傳統方式過著簡單的生活，親近大自然。</desc>
 			<flavor>我可以*感受到*你的存在。是的……你的存在。</flavor>
+			<editor.name>旗手[Boar]</editor.name>
 		</Hero08>
+		<NornArmor>
+			<name>瓦爾基裡</name>
+			<desc>瓦爾基裡人擁有神聖的力量，是克拉肯軍隊中最強大的成員。</desc>
+		</NornArmor>
+		<OxShadow>
+			<name>托芬的影子</name>
+		</OxShadow>
+		<GiantHero>
+			<name>布林恩</name>
+			<desc>布林恩是一位決定與人類交往，為他們提供無比實力的傳奇[Giant]。</desc>
+		</GiantHero>
 		<Hero05>
 			<name>哈根</name>
 			<langs.plural>哈根</langs.plural>
 			<desc>陰暗的鴉族領導人，殺害你父親的兇手。儘管兇殘無情，但當形勢不利時，他傾向於縮頭烏龜般地行事。</desc>
 			<flavor>為我而戰，讓你們發財！</flavor>
+			<editor.name>酋長戰役</editor.name>
 		</Hero05>
 		<Hero09>
 			<name>瑞格</name>
 			<langs.plural>瑞格</langs.plural>
+			<editor.name>英雄戰役</editor.name>
 		</Hero09>
 		<Berserker02>
 			<name>洛基</name>
 			<langs.plural>洛基</langs.plural>
 			<desc>野豬族的神秘領袖，致力於帶來世界末日。他的行為在某種程度上受符文指引。有人認為他不僅僅是凡人。</desc>
 			<flavor>如果這對於你的小腦瓜來說過於複雜的話，把它理解為“惡棍"就行。是的：我知道你正在讀這行哦。</flavor>
+			<editor.name>最終酋長戰役</editor.name>
 		</Berserker02>
 		<LichKing>
 			<name>瓦爾德瑪律</name>
 			<desc>瓦爾德瑪律是一位強大的死靈酋長。他帶著[IceGolem]時是無法擊敗的。</desc>
 			<flavor>瓦爾德瑪律是一位傳奇國王，他的死亡給赫爾海姆帶來了戰爭。反正大家都是這樣流傳的......</flavor>
+			<editor.name>不死酋長</editor.name>
 		</LichKing>
 		<Death>
 			<name>屍鬼</name>
@@ -921,12 +947,29 @@
 			<langs.plural>尼德威阿爾之門</langs.plural>
 		</NidavellirGate>
 		<FountainFame>
-			<name>聲望噴泉</name>
+			<name>米爾斯布倫</name>
 			<langs.plural>聲望噴泉</langs.plural>
+			<desc>將一名[Villager]指派為[RuneMaster]，以生產[Lore]。他們可能會從另一個部落中發現新知識。</desc>
 		</FountainFame>
 		<NidavellirBeacon>
 			<name>尼德威阿爾信標</name>
 		</NidavellirBeacon>
+		<FountainHealth>
+			<name>烏達布倫</name>
+			<desc>賦予你所有的治療師一個::percent::的[Healing]獎勵。允許使用[Cleanse]能力。</desc>
+		</FountainHealth>
+		<TallGrass>
+			<name>蘭德維迪</name>
+			<desc>別在高草叢中迷路。所有內部軍隊獲得[Invisibility]，使他們無法被外界察覺。</desc>
+		</TallGrass>
+		<PoisonousSwamp>
+			<name>毒沼澤</name>
+			<desc>傳播一種有毒氣體，能傷害和減緩任何通過它的東西。</desc>
+		</PoisonousSwamp>
+		<BrambleField>
+			<name>納斯特倫德</name>
+			<desc>除了最敏捷的人，任何東西都無法通過它的粗刺。它們可以被[Scout]清空，並且之後可以獲得一些[Wood]。</desc>
+		</BrambleField>
 		<Meteor>
 			<name>熔岩</name>
 			<langs.plural>熔岩</langs.plural>
@@ -983,7 +1026,7 @@
 			<desc>酋長揮舞著格拉姆之劍。被格拉姆擊中的敵人將和周邊地區一起被凍結。</desc>
 		</RelicBear>
 		<RelicBoar>
-			<name>古林布林蒂面具</name>
+			<name>古林布爾蒂面具</name>
 			<desc>+::value::[Food]生產力。顯示所有[Grove]。可在所有森林地區召喚一隻不可控的[GiantBoar]。將平定盟軍領地上的野豬。你可以在你的地盤上獻祭野豬獲取[Food]。</desc>
 		</RelicBoar>
 		<RelicSnake>
@@ -1038,6 +1081,18 @@
 			<name>瓦爾哈拉封印</name>
 			<desc>通過控制這個封印，[LichKing]阻止靈魂去瓦爾哈拉並把他們變成屍鬼帶回來。</desc>
 		</IceThrone>
+		<ColliderSquare>
+			<name>方形對撞機</name>
+			<desc>一種隱形的方形對撞機，使裝飾元素保持一致。</desc>
+		</ColliderSquare>
+		<ColliderRectangle>
+			<name>矩形對撞機</name>
+			<desc>一種隱形的矩形對撞機，使裝飾元素保持一致。</desc>
+		</ColliderRectangle>
+		<ColliderOcto>
+			<name>八角對撞機</name>
+			<desc>一種隱形的八角對撞機，使裝飾元素保持一致。</desc>
+		</ColliderOcto>
 		<WolvesCaveOff>
 			<name>狼窩</name>
 		</WolvesCaveOff>
@@ -1510,6 +1565,10 @@
 			<name>傳承知識</name>
 			<desc>實現智慧勝利的必要條件。</desc>
 		</FinalBlessing>
+		<FountainWisdom>
+			<name>智慧噴泉</name>
+			<desc>你得到了來自[FountainFame]的祝福，你可以從另一個部落中選擇一種知識。</desc>
+		</FountainWisdom>
 		<TempleTodo>
 			<name>棄用</name>
 		</TempleTodo>
@@ -1793,6 +1852,9 @@
 		<Taunted>
 			<name>奚落</name>
 		</Taunted>
+		<Poisoned>
+			<name>中毒</name>
+		</Poisoned>
 		<DepletedMine>
 			<desc>枯竭礦床。</desc>
 		</DepletedMine>
@@ -4917,6 +4979,10 @@
 			<name>托芬的影子</name>
 			<desc>召喚[OxShadow]。</desc>
 		</CallOxShadow>
+		<Cleanse>
+			<name>淨化</name>
+			<desc>立即從飢餓、疾病、冰凍和不快樂的所有狀態中恢復，並獲得::value0::秒的免疫。</desc>
+		</Cleanse>
 		<WarEffort>
 			<name>戰爭影響</name>
 			<desc>你可以選擇一項免費的軍事知識。</desc>
@@ -5021,6 +5087,14 @@
 			<name>反射</name>
 			<desc>敵人攻擊此單位會受到::percent_value::自身攻擊的反擊。</desc>
 		</DamageReturn>
+		<Invisibility>
+			<name>隱形</name>
+			<desc>這個軍隊是隱形的，只能被同一區域內的其他軍隊看到。</desc>
+		</Invisibility>
+		<SwampPoison>
+			<name>腐爛</name>
+			<desc>軍隊被減速並且隨著時間的推移受到傷害。</desc>
+		</SwampPoison>
 		<SacrificeHappy>
 			<name>娜娜的影響</name>
 			<desc>+::value::[Happy]</desc>
@@ -5834,5 +5908,112 @@
 				</0>
 			</conds>
 		</VKillColossalBoar>
+	</sheet>
+	<sheet name="decoration">
+		<0>
+			<name>草</name>
+		</0>
+		<1>
+			<name>灌木</name>
+		</1>
+		<2>
+			<name>三葉草</name>
+		</2>
+		<3>
+			<name>沼澤三葉草</name>
+		</3>
+		<4>
+			<name>藥草</name>
+		</4>
+		<5>
+			<name>橙花</name>
+		</5>
+		<6>
+			<name>白花</name>
+		</6>
+		<7>
+			<name>蘑菇</name>
+		</7>
+		<8>
+			<name>睡蓮</name>
+		</8>
+		<9>
+			<name>水生植物</name>
+		</9>
+		<10>
+			<name>水底草</name>
+		</10>
+		<11>
+			<name>樹</name>
+		</11>
+		<12>
+			<name>小樹叢</name>
+		</12>
+		<13>
+			<name>死樹</name>
+		</13>
+		<14>
+			<name>岩漿流樹</name>
+		</14>
+		<15>
+			<name>沼澤樹</name>
+		</15>
+		<16>
+			<name>沼澤樹干</name>
+		</16>
+		<17>
+			<name>岩石</name>
+		</17>
+		<18>
+			<name>滾石</name>
+		</18>
+		<19>
+			<name>福特岩</name>
+		</19>
+		<20>
+			<name>岩漿流岩</name>
+		</20>
+		<21>
+			<name>沼澤岩</name>
+		</21>
+		<22>
+			<name>冰石</name>
+		</22>
+		<23>
+			<name>冰塊</name>
+		</23>
+		<24>
+			<name>岩壁</name>
+		</24>
+		<25>
+			<name>海岸岩崖</name>
+		</25>
+		<26>
+			<name>火山崖</name>
+		</26>
+		<27>
+			<name>赫爾海姆石</name>
+		</27>
+		<28>
+			<name>水底岩</name>
+		</28>
+		<29>
+			<name>死鹿</name>
+		</29>
+		<30>
+			<name>屍鬼營地物品</name>
+		</30>
+		<31>
+			<name>石柱</name>
+		</31>
+		<32>
+			<name>狼窩石</name>
+		</32>
+		<33>
+			<name>荊棘田</name>
+		</33>
+		<34>
+			<name>村鎮物品</name>
+		</34>
 	</sheet>
 </cdb>

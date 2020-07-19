@@ -1,3 +1,4 @@
+
 <texts>
 	<t id="ia_names">Arvid|Asger|Audun|Balder|Bard|Bjorn|Brandt|Canute|Colby|Corey|Einar|Eirik|Erling|Fiske|Floki|Frey|Garth|Gunnar|Halstein|Haxe|Holger|Ivar|Jerrik|Keld|Knud|Lamont|Leif|Olaf|Olsen|Stein|Sven|Thorsen|Torvalds|Vidar|Hindaorf|Brynhild|Freydis|Gunnhild|Ranveig|Siv|Torunn|Vigdis|Harald|Magnus|Ulf</t>
 	<t id="men_names">Diarf|Gils|Thorvid|Ref|Hreidar|Rodmar|Jarn|Jarnseggid|Balli|Aron|Asgaut|Agram|Valandr|Sebashdian|Orrin|Brihoc|Broddi|Gardi|Ingimar|Bui|Thorlak|Arn|Bragi|Frodi|Floki|Ordr|Thorson|Slothi|Gnuppi|Suit|Wary|Ottar|Iarung|Iarund|Kalf|Throst|Ingi|Erp|Saxi|Valgard|Hreitar|Hallmund|Alfgeir|Solvi|Sigvhat|Gudvaer|Vandil|Snajbjorn|Thorred|Aslak|Arni|Ketil|Ingemar|Engil|Jomar|Anund|Thidrik|Geiterik|Haf|Bretakollr|Beinir|Steinhoff|Bjarko|Kori|Guthork|Skegg|Skopti|Sigfus|Bersi|Ham|Audun|Hrilfa|Arnvild|Arnid|Gudrod|Snorri|Ainrif|Ragnar|Veleif|Iric|Ongul|Hjord|Sighaerd|Audbjorn|Gamli|Thjodsoff|Sigehelm|Geirmund|Grimolf|Sigfast|Iorth|Skuli|Rodmar|Lopt|Bragi|Gaethir|Gunnleif|Orok|Orokia|Kaetilfast|Sigeferst|Hoskuld|Mursi|Thorberg|Odinkar|Styr|Olae|Grimolf|Grim|Gaut|Grimlof|Thorgauf|Skopti|Oybiorn|Bork|Ingvar|Skuld|Kotkell|Sketill|Knutr|Steinktill|Frodi|Bard|Orn|Käre|Osvald|Ivar|Alvi|Lodin|Geri|Bjarni|Kveldulf|Auti|Koptmann|Skuff|Thorfst|Hagi|Haeng|Guthere|Vekel|Orest|Mord|Ulfik|Gils|Alti|Steintor|Firthgeist|Vigbjorg|Torsten|Fugr|Krout|Nikhu|Hemak|Sakkam</t>
@@ -1459,6 +1460,304 @@
 			<t id="scorched_earth_desc_alt">無限期燒毀所有區域。<br/>燒毀區域：-::v1::產量，蛇族軍隊和建築物+::v2::攻擊力。在點火過程中將玩家的防禦能力提高::v3::。</t>
 			<t id="bifrost_confirm_colonize">殖民[BifrostLore]後，你的[Lore]會被用來啟動它，而不會解鎖知識。<br/><br/>你想要殖民[BifrostLore]嗎？</t>
 		</g>
+	</g>
+	<g id="editor">
+		<t id="title">模組</t>
+		<t id="tag">編輯器</t>
+		<t id="tag_mod">修改版游戲</t>
+		<t id="create">創建地圖</t>
+		<t id="load">編輯地圖</t>
+		<t id="save">保存地圖</t>
+		<t id="saved_maps">已保存的地圖</t>
+		<t id="back">返回地圖</t>
+		<t id="how_to">如何模組</t>
+		<t id="mod_list">已安裝的模組</t>
+		<t id="get_mod">獲得模組</t>
+		<t id="upload">上傳模組</t>
+		<t id="zone_id">區域::zoneId::：</t>
+		<t id="bt_choose">添加模組</t>
+		<t id="no_choose_mod">你沒有任何有效的模組。</t>
+		<t id="choose_win">選擇你想要添加到游戲裡的模組：</t>
+		<t id="victory_desc">模組</t>
+		<t id="local_mods">本地模組</t>
+		<t id="uploaded_mods">我上傳的模組</t>
+		<t id="empty_mod">這個模組是空的。</t>
+		<t id="obsolete_mod">這個模組的地圖已經過時了。如果你是創建者，你需要在地圖編輯器中打開地圖，保存並更新創意工坊版本。</t>
+		<t id="already_map_mod">你只能選擇一個帶有編輯過的地圖的模組</t>
+		<g id="mod_desc">
+			<t id="has_map">這個模組裡有一個編輯過的地圖</t>
+			<t id="no_map">這個模組裡沒有編輯過的地圖</t>
+			<t id="has_script">這個模組裡有一個腳本</t>
+			<t id="no_script">這個模組裡沒有腳本</t>
+			<t id="has_data">這個模組裡有修改過的數據</t>
+			<t id="no_data">這個模組裡沒有修改過的數據</t>
+		</g>
+		<g id="new_map">
+			<t id="new_edit">創建一張自定義地圖</t>
+			<t id="nb_players">玩家人數</t>
+			<t id="ok">創建地圖</t>
+			<t id="too_many_players">警告！這裡有太多的玩家。</t>
+		</g>
+		<g id="mod_visibility">
+			<t id="public_mod">公開</t>
+			<t id="friends">僅限好友</t>
+			<t id="private_mod">私密</t>
+		</g>
+		<g id="upload_menu">
+			<t id="no_local_mods">你沒有可上傳的模組。如果你想創建模組，請查看“如何模組"菜單。</t>
+			<t id="choose_local">選擇你想要創建或更新的模組：</t>
+			<t id="choose_uploaded">選擇你要在Steam創意工坊上替換的模組：</t>
+			<t id="new_mod">創建新模組</t>
+			<t id="diff_cat">上次上傳後的更改</t>
+			<t id="ok">上傳</t>
+			<t id="upload_in_progress">::modName:::上傳正在進行中</t>
+			<t id="upload_ok">::modName:::上傳成功</t>
+			<t id="upload_not_ok">::modName:::糟了……上傳失敗了。<br/>錯誤代碼：::errorCode::</t>
+			<t id="no_changes">兩個模組是相同的。</t>
+			<t id="mod_name">模組標題</t>
+			<t id="mod_desc">模組描述</t>
+			<t id="mod_type">模組內容類型</t>
+			<t id="notes">添加此更新的說明</t>
+			<t id="confirm_upload">你即將要更新模組::modName::。繼續嗎？</t>
+			<t id="legal_agreement_1">提交此項目，即表示你同意</t>
+			<t id="legal_agreement_2">創意工坊服務條款</t>
+			<t id="need_legal_agreement">你需要接受創意工坊服務條款</t>
+			<t id="visibility">創意工坊裡的可見性</t>
+		</g>
+		<g id="tabs">
+			<g id="world">
+				<t id="title">區域編輯器</t>
+				<t id="section_mode">模式</t>
+				<t id="section_infos">信息</t>
+				<t id="show_buildings">顯示建築</t>
+				<t id="show_zones_id">顯示區域ID</t>
+				<t id="show_zones_center">顯示區域中心</t>
+				<t id="show_all_units">顯示所有軍隊</t>
+				<t id="button_edit_height">地形高度</t>
+				<t id="button_edit_height_tip">更改每個區域的高度和可訪問性</t>
+				<t id="button_edit_fog">戰爭迷霧</t>
+				<t id="button_edit_fog_tip">更改所有玩家的戰爭迷霧</t>
+				<t id="button_hide">隱藏單元格</t>
+				<t id="button_show">顯示單元格</t>
+				<t id="button_apply">應用修改</t>
+				<t id="button_cancel">取消修改</t>
+				<t id="button_reset">重置場所</t>
+				<t id="button_reset_tip">把所有的場所都換回空的。</t>
+				<t id="dialog_close">關閉而不應用修改？</t>
+				<t id="dialog_apply_change">對地圖應用所有修改？這將需要幾秒鐘來重新加載新地圖。</t>
+				<t id="dialog_cancel_change">取消並撤回所有應用於地圖的修改？</t>
+				<t id="dialog_reset_tiles">重置所有場所（市政廳除外）？</t>
+				<t id="changes_to_apply">單擊“應用修改"以保存你的首選項。</t>
+			</g>
+			<g id="tiles">
+				<t id="title">場所</t>
+			</g>
+			<g id="buildings">
+				<t id="title">建築</t>
+				<t id="clear_button">清空區域內建築</t>
+				<t id="clear_no_selection">選擇一個區域以清空內部建築</t>
+				<t id="clear_no_buildings">選擇沒有任何建築的區域</t>
+			</g>
+			<g id="units">
+				<t id="title">軍隊</t>
+				<t id="clear_button">清空區域內軍隊</t>
+				<t id="clear_no_selection">選擇一個區域以清空內部軍隊</t>
+				<t id="clear_no_units">選擇沒有任何軍隊的區域</t>
+				<t id="cant_spawn">錯誤：無法生成軍隊</t>
+			</g>
+			<g id="elements">
+				<t id="title">風景元素</t>
+				<t id="desc">隨機選擇並放置更多元素</t>
+				<t id="plants_button">植物</t>
+				<t id="trees_button">樹</t>
+				<t id="rocks_button">岩石</t>
+				<t id="misc_button">混合</t>
+				<t id="all">選擇所有元素</t>
+				<t id="brush">畫筆</t>
+				<t id="size_tip">修改畫筆覆蓋的區域</t>
+				<t id="concentration_tip">修改每平方米放置的元素數量</t>
+				<t id="rotation">旋轉</t>
+				<t id="rotation_tip">旋轉風景</t>
+				<t id="random_rotation_tip">為每個放置的元素添加隨機旋轉偏移</t>
+				<t id="scale">比例</t>
+				<t id="scale_tip">修改對像的比例</t>
+				<t id="random_scale">隨機比例</t>
+				<t id="random_scale_tip">隨機設置比例</t>
+				<t id="clear_button">清空區域內元素</t>
+				<t id="clear_no_selection">選擇一個區域以清空內部元素</t>
+				<g id="decoration_groups">
+					<t id="plants">植物</t>
+					<t id="trees">樹</t>
+					<t id="rocks">岩石</t>
+					<t id="misc">混合</t>
+				</g>
+			</g>
+			<g id="brushes">
+				<t id="title">畫筆</t>
+				<t id="grass">草</t>
+				<t id="dirt">泥土</t>
+				<t id="forest">森林</t>
+				<t id="forest_tip">僅替換草</t>
+				<t id="rock">岩石</t>
+				<t id="texture">紋理</t>
+				<t id="tool">工具</t>
+				<t id="size">大小</t>
+				<t id="size_tip">修改畫筆覆蓋的區域</t>
+				<t id="sharpness">銳度</t>
+				<t id="sharpness_tip">畫筆硬度</t>
+				<t id="fill_zone">填充區域</t>
+				<t id="brush_tip_title">畫筆</t>
+				<t id="brush_tip">用光標繪制區域</t>
+				<t id="fill_tip_title">填充</t>
+				<t id="fill_tip">用單一紋理填充整個區域</t>
+			</g>
+			<g id="players">
+				<t id="title">派系</t>
+				<t id="players">玩家&AI</t>
+				<t id="neutral_factions">中立派系</t>
+				<t id="add_player">添加玩家</t>
+				<t id="add_player_tip">在選定區域中添加新玩家及其[TownHall]</t>
+				<t id="add_player_no_zone">添加一個沒有[TownHall]的新玩家</t>
+				<t id="add_player_too_many">你的玩家數量已達最大限制</t>
+				<t id="player_no_territory">該玩家不擁有任何區域</t>
+				<t id="player_no_townhall">該玩家不擁有任何[TownHall]</t>
+				<t id="faction_no_presence">該派系不在地圖上</t>
+				<t id="faction_no_territory">該派系不擁有任何區域</t>
+				<t id="home_action_focus_townhall">將相機平移到[TownHall]</t>
+				<t id="home_action_focus_territory">將相機平移到領地</t>
+				<t id="claim_action_select_zone">選擇一個區域來將其殖民化</t>
+				<t id="claim_action_claim_zone">對所選區域殖民</t>
+				<t id="claim_action_unclaim_zone">取消對所選區域殖民</t>
+				<t id="claim_action_overwrite_player">將替換區域擁有者</t>
+				<t id="delete_player">刪除一個玩家並從地圖上移除他的領地</t>
+				<t id="minimum_player">地圖上必須至少有一個玩家</t>
+				<t id="confirm_delete_player">你確定要從地圖上移除玩家::playerName::及其領地嗎？</t>
+				<t id="force_ai_on">允許人類玩家</t>
+				<t id="force_ai_off">強制玩家為AI</t>
+				<t id="ai_level_label">AI修改器</t>
+				<t id="ai_level_desc">額外的AI難度</t>
+			</g>
+		</g>
+		<g id="infos">
+			<t id="cursor_info">x: ::xCoord::, y: ::yCoord::</t>
+			<t id="no_error">你的地圖是有效的。</t>
+			<t id="has_error">你的地圖無效：</t>
+			<t id="has_warnings">你的地圖有警告：</t>
+			<t id="no_townhall">::player_name::沒有[TownHall]</t>
+			<t id="no_territory">::player_name::不擁有任何區域。</t>
+			<t id="no_discovered">::player_name::沒有任何發現的區域。</t>
+			<t id="too_much_townhall">::player_name::擁有超過一個的[TownHall]。</t>
+			<t id="all_ai_players">你無法將所有玩家都設為AI。</t>
+			<t id="lots_of_elements">你的地圖有太多元素。（::nb_elements::）</t>
+		</g>
+		<g id="fish">
+			<t id="no_lake">沒有湖可以放魚。</t>
+			<t id="ocean_zone">你不能手動把魚放在海裡。</t>
+			<t id="coast_zone">你不能把魚放在海岸。</t>
+			<t id="no_space">這個區域太小，放不下魚。</t>
+		</g>
+		<g id="controls">
+			<t id="ctrl_key">Ctrl</t>
+			<t id="shortcuts">快捷方式</t>
+			<g id="raise_zone">
+				<t id="title">提高</t>
+			</g>
+			<g id="raise_all">
+				<t id="title">提高所有區域</t>
+			</g>
+			<g id="lower_zone">
+				<t id="title">降低</t>
+			</g>
+			<g id="lower_all">
+				<t id="title">降低所有區域</t>
+			</g>
+			<g id="brush_size_up">
+				<t id="title">增加畫筆大小</t>
+				<t id="key">數字鍵盤9</t>
+			</g>
+			<g id="brush_size_down">
+				<t id="title">降低畫筆大小</t>
+				<t id="key">數字鍵盤7</t>
+			</g>
+			<g id="sharpen_down">
+				<t id="title">降低銳化</t>
+				<t id="key">數字鍵盤4</t>
+			</g>
+			<g id="sharpen_up">
+				<t id="title">增加銳化</t>
+				<t id="key">數字鍵盤6</t>
+			</g>
+			<g id="scale_up">
+				<t id="title">比例放大</t>
+				<t id="key">數字鍵盤8</t>
+			</g>
+			<g id="scale_down">
+				<t id="title">比例縮小</t>
+				<t id="key">數字鍵盤5</t>
+			</g>
+			<g id="rotate_left">
+				<t id="title">向左旋轉</t>
+				<t id="key">數字鍵盤4</t>
+			</g>
+			<g id="rotate_right">
+				<t id="title">向右旋轉</t>
+				<t id="key">數字鍵盤6</t>
+			</g>
+			<g id="swap_previous">
+				<t id="title">與上一個交換</t>
+				<t id="key">數字鍵盤7</t>
+			</g>
+			<g id="swap_next">
+				<t id="title">與下一個交換</t>
+				<t id="key">數字鍵盤9</t>
+			</g>
+			<g id="add_fog">
+				<t id="title">遮蓋</t>
+			</g>
+			<g id="remove_fog">
+				<t id="title">顯露</t>
+			</g>
+			<g id="open_border">
+				<t id="title">解除封鎖</t>
+			</g>
+			<g id="close_border">
+				<t id="title">封鎖</t>
+			</g>
+			<g id="erase_elements">
+				<t id="title">刪除元素</t>
+			</g>
+		</g>
+		<t id="owner">擁有者：</t>
+		<t id="delete">移除</t>
+		<t id="missing_clan_building">警告！缺少::clanName::部落的建築：::buildingName::</t>
+		<t id="add_shoal">添加[Shoal]</t>
+		<t id="remove_shoal">移除[Shoal]</t>
+		<g id="unit_groups">
+			<t id="civil">民用單位</t>
+			<t id="military">軍隊</t>
+			<t id="hero">英雄</t>
+			<t id="foe">基礎敵人</t>
+			<t id="mystical">神秘敵人</t>
+			<t id="passive">被動軍隊</t>
+		</g>
+		<g id="building_groups">
+			<t id="production">生產建築</t>
+			<t id="military">軍用建築</t>
+			<t id="other">特殊建築</t>
+			<t id="place_res">資源特性</t>
+			<t id="place">世界特性</t>
+			<t id="faction">派系</t>
+			<t id="spawner">生成</t>
+			<t id="relic">聖物</t>
+			<t id="victory">勝利建築</t>
+			<t id="collider">對撞機</t>
+		</g>
+		<t id="error">警告</t>
+		<t id="play">總之繼續</t>
+		<t id="quit">退出游戲</t>
+		<t id="failed_script">模組::modName::無法加載腳本，原因如下：</t>
+		<t id="contact_modder">更多信息請聯系模組創作者。</t>
+		<t id="no_mods_installed">你沒有安裝任何模組。</t>
 	</g>
 	<g id="generation_quotes">
 		<t id="Sculptingislandterrain">塑造島嶼地形……</t>
