@@ -1,7 +1,3 @@
-<dl>
-<img src="https://kylema.mynetgear.com/gorillakelvin/image/other/desc0.png" width="600">
-</dl>
-
 ## 下載檔案
 <dl>
 <table>
