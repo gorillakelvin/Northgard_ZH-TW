@@ -6,17 +6,17 @@
 <dl>
 <table>
   <tr>
-    <th colspan="3">Northgard v.2.2.9.17776</th>
+    <th colspan="3">Northgard v2.8.37.27016</th>
   </tr>
   <tr>
     <td><img src="https://kylema.mynetgear.com/gorillakelvin/image/other/download.png" width="20"></td>
     <td>懶人安裝版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2020.7.19_V.2.2.9.17776</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2022.8.23_V2.8.37.27016</a></td>
   </tr>
   <tr>
     <td><img src="https://kylema.mynetgear.com/gorillakelvin/image/other/download.png" width="20"></td>
     <td>完整ZIP版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2020.7.19_V.2.2.9.17776</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2022.7.19_V2.8.37.27016</a></td>
   </tr>
 </table>
 </dl>
@@ -71,7 +71,7 @@
  <td><img src="https://kylema.mynetgear.com/gorillakelvin/image/other/desc4.png" height="300"></td>
  </tr>
  <tr>
-  <td>打開遊戲後點選<code>Option</code> >> <code>Language： 漢化字</code>，然後就完成啦。 <br>
+  <td>打開遊戲後點選<code>Option</code> >> <code>Language： 簡化字</code>，然後就完成啦。 <br>
   * 若已經在使用簡體中文, 安裝後簡體文檔會被覆蓋爲繁體中文。
   </td>
  </tr>
