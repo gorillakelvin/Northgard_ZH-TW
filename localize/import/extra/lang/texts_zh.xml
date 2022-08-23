@@ -627,8 +627,8 @@
         <g id="map_size">
             <t _id="small">小</t>
             <t _id="medium">中</t>
-            <t _id="large">多</t>
-            <t _id="huge">交易</t>
+            <t _id="large">大</t>
+            <t _id="huge">廣闊</t>
         </g>
         <g id="team_placement">
             <t id="not_available">無法更改隊伍配置。目前設定:</t>

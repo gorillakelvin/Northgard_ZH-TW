@@ -17,8 +17,8 @@
         <name>部落武裝組職</name>
             </ArmedChief>
         <Battleground>
-            <desc>在::value::部落单位死亡的区域，该区域会成为战场。你有::percent_value1::的[MilitaryXP]加成。</desc>
-        <name>战场</name>
+            <desc>在::value::部落單位死亡的區域，該區域會成為戰場。你有::percent_value1::的[MilitaryXP]加成。</desc>
+        <name>戰場</name>
             </Battleground>
         <BearHunting>
             <desc>此單位會慢慢恢復，並在[Shoal]周圍會生產糧食。</desc>
@@ -3052,8 +3052,11 @@
             <plural.name>防禦塔</plural.name>
             <upgrades>
                 <line0>
-                    <desc>塔的攻擊力和抵抗力增加::percent::。</desc>
+                    <desc>塔的抵抗力增加::percent::。</desc>
                 </line0>
+                <line1>
+                    <desc>塔的攻擊力和抵抗力提高::percent::。</desc>
+                </line1>
             </upgrades>
         </WatchTower>
         <Water>
@@ -5828,6 +5831,9 @@
                 <line4>
                     <desc>現在可以追加支付費用，佔領野生生態系統的中立地區。佔領地區的[Wolf]和[Bear]變得友好，不會攻擊我的單位。</desc>
                 </line4>
+                <line5>
+                    <desc>該部落只能和中立派系交易。</desc>
+                </line5>
             </bonuses>
         <desc>被其他部落遺忘最近再次發現的野豬部落既神祕又野性。 他們的世界觀非常獨特，低俗的原始方式也是如此。</desc>
             <name>野豬</name>
@@ -6844,6 +6850,9 @@
     <BloodBath>
             <name>憤怒</name>
         </BloodBath>
+        <BloodBathZone>
+            <name>浴血奮戰</name>
+        </BloodBathZone>
         <BloodTies>
             <name>憤怒</name>
         </BloodTies>
@@ -6881,6 +6890,9 @@
         <Dead>
             <name>屍體</name>
         </Dead>
+        <DefBonus>
+            <name>防禦提升</name>
+        </DefBonus>
         <Defending>
             <name>防禦中</name>
         </Defending>
@@ -6897,6 +6909,9 @@
         <Frozen>
             <name>銅像</name>
         </Frozen>
+        <Galvanize>
+            <name>振奮</name>
+        </Galvanize>
         <Healed>
             <name>已治療</name>
         </Healed>
@@ -6907,6 +6922,10 @@
         <Hindered>
             <name>延遲中</name>
         </Hindered>
+        <HoldTheLine>
+            <desc>區域里的單位會減速。</desc>
+        <name>堅定不移</name>
+            </HoldTheLine>
         <Lure>
             <name>傳說餌</name>
         </Lure>
@@ -6970,6 +6989,9 @@
         <Purification>
             <name>淨化</name>
         </Purification>
+        <Rally>
+            <name>已結盟</name>
+        </Rally>
         <Sick>
             <desc>生病的部落成員治癒時，少獲得::inv_percent::的體力。</desc>
         <name>士兵</name>
@@ -7581,6 +7603,7 @@
         </sheet>
     <sheet name="resource">
         <Artifact>
+            <desc>派[OxHero]從[AncientBattleground]那里取回[Artifact]，它們將使他比現在更強大。</desc>
             <name>祖傳裝備</name>
             <plural.name>祖傳裝備</plural.name>
         </Artifact>
@@ -7589,6 +7612,7 @@
         <name>肉類</name>
             </BigGame>
         <Blood>
+            <desc>獻祭足夠的單位以獲得[Blood]，獲得神的祝福。不要這樣，直面冒犯的後果。</desc>
             <name>龍的精髓</name>
         </Blood>
         <Building>
@@ -7642,6 +7666,7 @@
             </HuntTrophy>
         <Ingredients>
             <name>材料</name>
+            <desc>從不同的區域收集不同的[Ingredients]，並使用[Stove]將它們轉換為有用的[Meal]。</desc>
         </Ingredients>
         <Iron>
             <desc>[Iron]可用於製作強大的武器和更優質的工具。</desc>
@@ -7682,7 +7707,7 @@
             <name>人口</name>
         </Population>
         <Prescience>
-        	<desc>指派[Norn]以生產[Prescience]，並使用它釋放強大的技能和單位，如[SpecterWarrior]和[NornArmor]。</desc>
+            <desc>指派[Norn]以生產[Prescience]，並使用它釋放強大的技能和單位，如[SpecterWarrior]和[NornArmor]。</desc>
             <name>命運</name>
         </Prescience>
         <Prestige>
@@ -8863,7 +8888,7 @@
             <desc>強而明智的布洛克願意把政治領域交給妹妹，而自己則想專注於製作。</desc>
             <editor.name>大戰士[Horse]</editor.name>
         <flavor>[HorseHero]以他的鐵匠技能而聞名。</flavor>
-        	<name>布洛克</name>
+            <name>布洛克</name>
             </HorseHero>
         <HorseMaiden>
             <desc>有才能的匠人艾特里亞更專注於部落運營，偶爾轉換心情時才會拿起鎬頭。</desc>
