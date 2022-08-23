@@ -2,7 +2,7 @@
 <dl>
 <table>
   <tr>
-    <th colspan="3">Northgard v2.8.37.27016</th>
+    <th colspan="3">Northgard v2.8.37.27016 (2022-8-23)</th>
   </tr>
   <tr>
     <td>懶人安裝版本</td>
