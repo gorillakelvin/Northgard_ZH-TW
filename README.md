@@ -2,15 +2,15 @@
 <dl>
 <table>
   <tr>
-    <th colspan="3">Northgard v2.8.37.27016 (2022-8-23)</th>
+    <th colspan="3">Northgard v2.9.13.27942 [LANG v53.a] (2022-10-04)</th>
   </tr>
   <tr>
     <td>懶人安裝版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2022.8.23_V2.8.37.27016</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/raw/master/localize.exe">[繁體化懶人包] 2022.10.04_V2.9.13.27942 [LANG v53.a]</a></td>
   </tr>
   <tr>
     <td>完整ZIP版本</td>
-    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2022.7.19_V2.8.37.27016</a></td>
+    <td><a href="https://github.com/gorillakelvin/Northgard_ZH-TW/archive/master.zip">NORTHGARD_ZHTW_LOCALIZE_2022.10.04_V2.9.13.27942[v53.a]</a></td>
   </tr>
 </table>
 </dl>
